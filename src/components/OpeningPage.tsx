@@ -31,7 +31,7 @@ export function OpeningPage({ onOpen }: OpeningPageProps) {
         angle: randomInRange(55, 125),
         spread: randomInRange(50, 70),
         origin: { y: 0.6 },
-        colors: ['#ffffffff', '#C0862F'],
+        colors: ['#ffffffff', '#A3B18A'],
       });
 
       if (timeLeft > 0) {
@@ -66,7 +66,7 @@ export function OpeningPage({ onOpen }: OpeningPageProps) {
       >
         <Heart className="w-12 h-12 mx-auto mb-6 text-onyx animate-pulse" />
         <h1 className="font-script text-5xl mb-6 text-jet">
-          Silvia & Jesús
+          XV Años Vale
         </h1>
         <button
           onClick={handleOpen}
@@ -78,10 +78,7 @@ export function OpeningPage({ onOpen }: OpeningPageProps) {
           </span>
         </button>
         <p className="mt-4 text-sm text-dim-gray">
-          * No Niños
-        </p>
-        <p className="mt-4 text-sm text-dim-gray">
-          * Vestimenta: hombres colores claros y Mujeres amarillo
+          * Sube el volumen para mejorar la experiencia
         </p>
       </motion.div>
     </motion.div>

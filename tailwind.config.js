@@ -9,17 +9,17 @@ export default {
         script: ['Great Vibes', 'cursive'],
       },
       colors: {
-        onyx: '#C0862F',
+        onyx: '#4A5D4E',
         'eerie-black': '#212121',
-        jet: '#C0862F',
+        jet: '#4A5D4E',
         'dim-gray': '#6B6B6B',
-        'antiflash-white': '#ECECEC',
+        'antiflash-white': '#F8F9F1',
       },
       animation: {
         fadeIn: 'fadeIn 0.5s ease-out',
       },
       backgroundImage: {
-        'gradient-elegant': 'linear-gradient(135deg, #C0862F 0%, #A86E22 25%, #704C18 50%, #3A2A12 75%, #1A1A1A 100%)',
+        'gradient-elegant': 'linear-gradient(135deg, #A3B18A 50%, #F8F9F1 100%)',
       },
 
     },

@@ -68,7 +68,7 @@ export function Welcome() {
             variants={textVariants}
             className="font-script text-6xl md:text-8xl mb-6 text-antiflash-white"
           >
-            Silvia & Jesús
+            Vale
           </motion.h1>
 
           {/* Thank You Message */}
@@ -79,7 +79,7 @@ export function Welcome() {
           >
             <div className="max-w-2xl mx-auto px-6 py-0 backdrop-blur-sm bg-antiflash-white/10 rounded-lg border border-antiflash-white/20">
               <p className="text-lg text-antiflash-white/90 font-serif">
-                Hay amores que inspiran y compromisos que trascienden el tiempo. Con gran gratitud a Dios y a la vida, tenemos el honor de invitarlos a la celebración de nuestros 26 años de matrimonio.
+                Acompañame a celebrar la primavera más hermosa de mi vida.
               </p>
             </div>
           </motion.div>

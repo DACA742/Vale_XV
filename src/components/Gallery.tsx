@@ -11,7 +11,7 @@ const photos = [
 export function Gallery() {
   return (
     <section className="max-w-4xl mx-auto p-8">
-      <h2 className="font-script text-6xl md:text-8xl text-center mb-6 text-jet">Nuesto Camino Juntos...</h2>
+      <h2 className="font-script text-6xl md:text-8xl text-center mb-6 text-jet">Momentos Especiales</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {photos.map((photo, index) => (
           <div key={index} className="relative overflow-hidden rounded-lg aspect-square">

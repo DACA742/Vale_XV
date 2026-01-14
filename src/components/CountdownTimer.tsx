@@ -42,7 +42,7 @@ export function CountdownTimer() {
           <div key={unit} className="flex flex-col items-center">
             <div
               className="w-16 h-16 flex items-center justify-center rounded-lg shadow-md"
-              style={{ backgroundColor: "#C0863F", color: "#fff" }}
+              style={{ backgroundColor: "#A3B18A", color: "#fff" }}
             >
               <span className="text-2xl font-bold">{value}</span>
             </div>
