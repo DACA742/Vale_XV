@@ -95,7 +95,7 @@ export default function SeatingArrangement() {
       {/* Imagen del layout */}
       <div className="bg-antiflash-white/90 rounded-lg shadow-xl p-4 mb-12">
         <img
-          src="public/img/imagen1.jpg"  // ✅ correcto en React (desde /public)
+          src="img/imagen1.jpg"  // ✅ correcto en React (desde /public)
           alt="Distribución de mesas"
           className="w-full h-auto rounded-lg shadow-2xl object-cover"
         />
