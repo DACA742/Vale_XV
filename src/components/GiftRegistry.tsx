@@ -12,7 +12,7 @@ const gifts = [
 
 export function GiftRegistry() {
   return (
-    <section className="max-w-4xl mx-auto p-8">
+    <section className="max-w-4xl mx-auto p-6">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -21,7 +21,7 @@ export function GiftRegistry() {
         className="text-center mb-12"
       >
         <h2 className="font-serif text-3xl mb-4 text-jet">Lista de Regalos</h2>
-        <p className="text-dim-gray">Tu presencia es nuestro mejor regalo, pero si deseas obsequiarnos algo más...</p>
+        <p className="text-dim-gray">Tu presencia es mi mejor regalo, pero si deseas obsequiarme algo más...</p>
       </motion.div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {gifts.map((gift, index) => (

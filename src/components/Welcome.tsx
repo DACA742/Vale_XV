@@ -34,7 +34,7 @@ export function Welcome() {
         animate={inView ? { scale: 1 } : {}}
         transition={{ duration: 1.5 }}
         style={{
-          backgroundImage: 'url("img/hero3.jpg")',
+          backgroundImage: 'url("img/hero6.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           filter: 'brightness(0.9)',
@@ -68,7 +68,7 @@ export function Welcome() {
             variants={textVariants}
             className="font-script text-6xl md:text-8xl mb-6 text-antiflash-white"
           >
-            Vale
+            Denisse Valentina
           </motion.h1>
 
           {/* Thank You Message */}
@@ -95,7 +95,7 @@ export function Welcome() {
       >
         <div className="flex flex-col items-center gap-2">
           <p className="text-sm text-antiflash-white/70">Desliza hacia abajo</p>
-          <div className="w-[1px] h-8 bg-gradient-to-b from-antiflash-white/70 to-transparent" />
+          <div className="w-[2px] h-20 bg-gradient-to-b from-antiflash-white/70 to-transparent" />
         </div>
       </motion.div>
     </motion.section>

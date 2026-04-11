@@ -46,6 +46,10 @@ export function RSVP() {
         <p>
           Por cuestiones de organización, te pedimos respetar la cantidad de asientos asignados.
         </p>
+        <br></br>
+        <p>
+          * No niños.
+        </p>
       </div>
 
       <form name="contact-form" method="post" action="" onSubmit={handleSubmit} className="space-y-4 mt-6">

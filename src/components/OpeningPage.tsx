@@ -31,7 +31,7 @@ export function OpeningPage({ onOpen }: OpeningPageProps) {
         angle: randomInRange(55, 125),
         spread: randomInRange(50, 70),
         origin: { y: 0.6 },
-        colors: ['#ffffffff', '#A3B18A'],
+        colors: ['#ffffffff', '#E6A6A1'],
       });
 
       if (timeLeft > 0) {
@@ -54,6 +54,7 @@ export function OpeningPage({ onOpen }: OpeningPageProps) {
       className="fixed inset-0 bg-cover bg-center bg-no-repeat flex items-center justify-center z-50"
       style={{
         backgroundImage: 'url("img/hero3.jpg")',
+        backgroundPosition: 'top'
       }}
     >
       <div className="absolute inset-0 bg-eerie-black/40 backdrop-blur-sm" />
@@ -66,7 +67,7 @@ export function OpeningPage({ onOpen }: OpeningPageProps) {
       >
         <Heart className="w-12 h-12 mx-auto mb-6 text-onyx animate-pulse" />
         <h1 className="font-script text-5xl mb-6 text-jet">
-          XV Años Vale
+          XV Años Denisse Valentina
         </h1>
         <button
           onClick={handleOpen}

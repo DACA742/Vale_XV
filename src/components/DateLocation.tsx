@@ -7,14 +7,15 @@ export function DateLocation() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Misa en la iglesia */}
         <div className="text-center">
+          
           <Calendar className="w-8 h-8 mx-auto mb-4 text-onyx" />
           <h2 className="font-serif text-2xl mb-2 text-jet">Ceremonia</h2>
-          <p className="text-dim-gray">Sábado, Mayo 16, 2026</p>
-          <p className="text-dim-gray">04:50 PM</p>
+          <p className="text-dim-gray">Sábado, Abril 11, 2026</p>
+          <p className="text-dim-gray">06:00 PM</p>
           <div className="mt-4">
             <MapPin className="w-8 h-8 mx-auto mb-4 text-onyx" />
-            <p className="font-serif text-xl mb-2 text-jet">Parroquia De Cristo Redentor</p>
-            <p className="text-dim-gray">Av. Aguascalientes Pte. 101B, Residencial del Valle I, 20070 Aguascalientes, Ags.</p>
+            <p className="font-serif text-xl mb-2 text-jet">Parroquia del Sagrado Corazón de Jesús</p>
+            <p className="text-dim-gray">5 de Mayo 602, Zona Centro, 20000 Aguascalientes, Ags.</p>
           </div>
         </div>
 
@@ -22,12 +23,12 @@ export function DateLocation() {
         <div className="text-center">
           <Calendar className="w-8 h-8 mx-auto mb-4 text-onyx" />
           <h2 className="font-serif text-2xl mb-2 text-jet">Recepción</h2>
-          <p className="text-dim-gray">Sábado, Mayo 16, 2026</p>
-          <p className="text-dim-gray">07:00 PM</p>
+          <p className="text-dim-gray">Sábado, Abril 11, 2026</p>
+          <p className="text-dim-gray">07:30 PM</p>
           <div className="mt-4">
             <MapPin className="w-8 h-8 mx-auto mb-4 text-onyx" />
-            <p className="font-serif text-xl mb-2 text-jet">Salón Jardín Quinta San Ignacio</p>
-            <p className="text-dim-gray">Antiguo Camino a San Ignacio 5, La Fundición, 20001 Aguascalientes, Ags.</p>
+            <p className="font-serif text-xl mb-2 text-jet">Salón Rincón del Mezquite</p>
+            <p className="text-dim-gray">Av. Eugenio Garza Sada 86, Pocitos, 20328 Pocitos, Ags.</p>
           </div>
         </div>
       </div>

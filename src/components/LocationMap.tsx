@@ -5,18 +5,18 @@ import { MapPin, Navigation } from 'lucide-react';
 const locations = [
   {
     name: "Cómo Llegar a Ceremonia",
-    address: "Parroquia De Cristo Redentor",
+    address: "Parroquia del Sagrado Corazón de Jesús",
     coords: {
-      lat: 21.87697723378219,
-      lng: -102.31801235767206
+      lat: 21.88807038443861,
+      lng: -102.29639750925192
     }
   },
   {
     name: "Cómo Llegar a Recepción",
-    address: "Salón Jardín Quinta San Ignacio",
-    coords: {
-      lat: 21.90149818578937,
-      lng: -102.34047819999999
+    address: "Rincón del Mezquite",
+    coords: { 
+      lat: 21.915062482325727,
+      lng: -102.33120125476083
     }
   }
 ];

@@ -13,7 +13,7 @@ export function CountdownTimer() {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const weddingDate = new Date('2026-05-16T16:50:00');
+      const weddingDate = new Date('2026-04-11T18:00:00');
       const difference = weddingDate.getTime() - new Date().getTime();
 
       if (difference > 0) {
@@ -42,7 +42,7 @@ export function CountdownTimer() {
           <div key={unit} className="flex flex-col items-center">
             <div
               className="w-16 h-16 flex items-center justify-center rounded-lg shadow-md"
-              style={{ backgroundColor: "#A3B18A", color: "#fff" }}
+              style={{ backgroundColor: "#E6A6A1", color: "#fff" }}
             >
               <span className="text-2xl font-bold">{value}</span>
             </div>

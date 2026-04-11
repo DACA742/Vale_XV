@@ -48,13 +48,21 @@ export function Story() {
           variants={textVariants}
           className="space-y-4 mb-8"
         >
-          {/* Padrinos de Velación */}
-          <p className="font-serif text-2xl md:text-3xl text-jet mt-8">
-            Padrinos de Velación:
+          <p className="font-serif text-2xl md:text-3xl text-jet">
+            Padres:
           </p>
           <div className="text-xl text-dim-gray">
-            <p>Rafael Romo Barba </p> {/* Reemplaza con el nombre real */}
-            <p>Esperanza Chávez Martínez</p> {/* Reemplaza con el nombre real */}
+            <p>Reyna Isabel Ocaña Ramos</p>
+            <p>Genaro Gutiérrez Flores</p>
+          </div>
+
+          {/* Padrinos de Velación */}
+          <p className="font-serif text-2xl md:text-3xl text-jet mt-8">
+            Padrinos:
+          </p>
+          <div className="text-xl text-dim-gray">
+            <p>Carmen Alicia Aguayo Chávez </p> {/* Reemplaza con el nombre real */}
+            <p>Manuel Enrique Ocaña Ramos</p> {/* Reemplaza con el nombre real */}
           </div>
         </motion.div>
       </div>
